@@ -1,0 +1,471 @@
+#page {
+  display: grid;
+  grid-template-rows: 0.2fr 3fr 8fr 2fr;
+  height: 200vh;
+  background-image: url("backk.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1536px) {
+  #page {
+    display: grid;
+    grid-template-rows: 0.5fr 3fr 8fr 5fr;
+    height: 240vh;
+    background-image: url("backk.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+#top-navbar {
+  background-color: black;
+  float: right;
+  color: white;
+  padding-right: 100px;
+  font-family: arial black;
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 1536px) {
+  #top-navbar {
+    background-color: black;
+    float: right;
+    color: white;
+    padding-right: 100px;
+    font-family: arial black;
+    opacity: 0.95;
+  }
+}
+
+#top-navbar div {
+  float: left;
+  padding-left: 100px;
+  cursor: pointer;
+}
+
+#navbar-logo {
+  height: 30px;
+}
+
+#menubutton {
+  padding-top: 10px;
+}
+#menubutton:hover {
+  color: #585252;
+}
+
+#forside-button {
+  padding-top: 10px;
+}
+
+#forside-button:hover {
+  color: #585252;
+  text-decoration: underline rgb(58, 52, 52);
+}
+
+#tjenester {
+  padding-top: 10px;
+}
+
+#tjenester:hover {
+  color: #585252;
+  text-decoration: underline rgb(58, 52, 52);
+}
+
+#om-oss {
+  padding-top: 10px;
+}
+
+#om-oss:hover {
+  color: #585252;
+  text-decoration: underline rgb(58, 52, 52);
+}
+
+#kontakt:hover {
+  color: #585252;
+  text-decoration: underline rgb(58, 52, 52);
+}
+
+#kontakt {
+  padding-top: 10px;
+}
+
+#header {
+  color: aliceblue;
+  text-align: center;
+}
+
+#header-header {
+  padding-top: 10px;
+}
+
+#header-info {
+  font-family: arial rgb(255, 255, 255);
+  font-size: 200%;
+  text-shadow: 2px 2px black;
+}
+
+#header-erfaring {
+  font-family: arial rgb(255, 255, 255);
+  font-size: 200%;
+  text-shadow: 2px 2px black;
+}
+
+#innhold {
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+#innhold-grid {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  grid-gap: 50px;
+}
+
+#innhold-grid div {
+  opacity: 0.9;
+}
+
+#innhold-om-oss {
+  background-color: rgb(228, 228, 228);
+  height: 400px;
+  width: 750px;
+  box-shadow: 5px 10px rgb(177, 175, 175);
+}
+
+@media only screen and (max-width: 1536px) {
+  #innhold-om-oss {
+    background-color: rgb(228, 228, 228);
+    height: 400px;
+    width: 595px;
+    box-shadow: 5px 10px rgb(71, 68, 68);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #innhold-om-oss {
+    display: block;
+  }
+}
+
+#innhold-omoss-head {
+  text-align: center;
+  font-family: arial black;
+  font-size: 150%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-shadow: 1px 1px rgb(85, 85, 85);
+  background-color: #353434;
+}
+
+#omoss-pic {
+  float: right;
+  height: 350px;
+  padding-right: 50px;
+}
+
+@media only screen and (max-width: 1536px) {
+  #omoss-pic {
+    height: 300px;
+    padding-right: 30px;
+  }
+}
+
+#omoss-text {
+  float: left;
+  color: black;
+  text-align: center;
+}
+
+#omoss-text-head {
+  padding-left: 130px;
+}
+
+@media only screen and (max-width: 1536px) {
+  #omoss-text-head {
+    font-size: 1.3vw;
+    padding-left: 30px;
+  }
+}
+
+#omoss-text-content {
+  padding-left: 70px;
+}
+
+@media only screen and (max-width: 1536px) {
+  #omoss-text-content {
+    font-size: 0.98vw;
+    padding-left: 13px;
+  }
+}
+
+#innhold-tjenester {
+  background-color: rgb(228, 228, 228);
+  height: 400px;
+  width: 750px;
+  box-shadow: 5px 10px rgb(71, 68, 68);
+}
+
+#innhold-tjenester-buttons {
+  margin: 50px;
+  display: grid;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-gap: 30px;
+  text-align: center;
+}
+
+#innhold-tjenester-buttons div {
+  border: solid black 2px;
+  width: 620px;
+  height: 50px;
+  background-color: #e0dbdb;
+  box-shadow: 2px 2px rgb(71, 68, 68);
+  font-size: x-large;
+  padding-top: 10px;
+}
+@media only screen and (max-width: 1536px) {
+  #innhold-tjenester-buttons div {
+    border: solid black 2px;
+    width: 510px;
+    height: 50px;
+    background-color: #e0dbdb;
+    box-shadow: 2px 2px rgb(71, 68, 68);
+    font-size: x-large;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  #innhold-tjenester {
+    background-color: rgb(228, 228, 228);
+    height: 400px;
+    width: 620px;
+    box-shadow: 5px 10px rgb(71, 68, 68);
+  }
+}
+
+#innhold-tjenester-head {
+  text-align: center;
+  font-family: arial black;
+  font-size: 150%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-shadow: 1px 1px rgb(85, 85, 85);
+  background-color: #343435;
+}
+
+#tjenester-knapp {
+  font-family: Arial Bold;
+  font-style: italic;
+  font-size: large;
+  text-shadow: 1px 1px rgb(85, 85, 85);
+  color: black;
+  cursor: pointer;
+}
+
+#tjenester-knapp:hover {
+  background-color: rgb(41, 40, 40);
+  color: rgb(228, 228, 228);
+}
+
+#tjenester-knapp2 {
+  font-family: Arial Bold;
+  font-style: italic;
+  font-size: large;
+  text-shadow: 1px 1px rgb(85, 85, 85);
+  color: black;
+  cursor: pointer;
+}
+
+#tjenester-knapp2:hover {
+  background-color: rgb(41, 40, 40);
+  color: rgb(228, 228, 228);
+}
+
+#tjenester-knapp3 {
+  font-family: Arial Bold;
+  font-style: italic;
+  font-size: large;
+  text-shadow: 1px 1px rgb(85, 85, 85);
+  color: black;
+  cursor: pointer;
+}
+
+#tjenester-knapp3:hover {
+  background-color: rgb(41, 40, 40);
+  color: rgb(228, 228, 228);
+}
+
+#innhold-kontakt {
+  margin: 100px;
+  width: 86%;
+  height: 450px;
+  background-color: rgb(228, 228, 228);
+  box-shadow: 5px 10px rgb(71, 68, 68);
+}
+#innhold-kontakt {
+  opacity: 0.95;
+  float: right;
+}
+
+#innhold-kontakt-head {
+  text-align: center;
+  font-family: arial black;
+  font-size: 150%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-shadow: 1px 1px rgb(85, 85, 85);
+  background-color: #353434;
+}
+
+#kontakt-hauk {
+  padding-top: 20px;
+  padding-left: 100px;
+  color: rgb(59, 59, 59);
+  font-family: helvetica;
+  width: 300px;
+  text-align: center;
+}
+
+#kontaktinformasjon {
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+#kontaktinfo-tlf {
+  padding-bottom: 20px;
+}
+
+#kontaktinfo-mail {
+  padding-bottom: 20px;
+}
+
+#kontaktinfo-adresse {
+  padding-bottom: 20px;
+}
+
+div.mapouter {
+  position: relative;
+  height: 202px;
+  width: 300px;
+}
+
+#innhold-kontainer {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+#mailtext {
+  width: 600px;
+  height: 100px;
+  text-align: start;
+  border: none;
+  background-color: rgb(212, 212, 212);
+}
+
+#kontaktskjema-h {
+  text-align: center;
+  color: rgb(59, 59, 59);
+  font-size: x-large;
+  font-family: helvetica;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#kontaktskjema {
+  padding-bottom: 20px;
+}
+
+#ks {
+  border: none;
+  background-color: rgb(212, 212, 212);
+}
+
+#navbaromoss-head {
+  display: none;
+}
+
+#omoss-grid {
+  display: none;
+}
+
+#navbarref-head {
+  display: none;
+}
+
+#ref-grid {
+  display: none;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  display: grid;
+}
+
+#footerlogo-display {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#footer-logo {
+  height: 50px;
+}
+
+#mesterlogo {
+  height: 100px;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+@media only screen and (max-width: 1536px) {
+  #footer {
+    background-color: black;
+    color: white;
+    opacity: 0.95;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: black; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #585252;
+  text-decoration: underline rgb(58, 52, 52);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}

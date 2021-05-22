@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a
+      >
+      <a href="#">Om oss</a>
+      <a href="#">Tjenester</a>
+      <a href="#">Prosjekter</a>
+      <a href="#">Sammarbeid</a>
+      <a href="#">Kontakt</a>
+    </div>
+
+    <div id="page">
+      <div class="top-navbar" id="top-navbar">
+        <div class="menubutton" id="menubutton" onclick="openNav()">☰</div>
+        <div id="logo-display">
+          <img onclick="home()" id="navbar-logo" src="baerum_byggfornyelse_sorthv.jpg" alt="Logo">
+        </div>
+        <div id="forside-button" onclick="home()">Forside</div>
+        <div id="tjenester">▼ Tjenester</div>
+        <div id="om-oss" onclick="omosss()">Om oss</div>
+        <div id="kontakt">Kontakt</div>
+      </div>            
+
+      <div id="header">
+        <div id="header-header"> 
+          <img src="transparent_logo2.png" alt="Transparent">
+        </div></br>
+          <div id="header-info">
+            I Bærum Byggfornyelse er vi opptatt av </br>
+            estetikk, kvalitet og punktlighet.</br>
+            Vi går ikke for de billige løsningene.
+          </div></br>
+            <div id="header-erfaring">- 20 års erfaring -</div>
+      </div>
+
+
+      <div id="innhold">
+        <div id="innhold-grid">              
+          <div id="innhold-om-oss">
+            <div id="innhold-omoss-head">Om oss</div>
+              <div id="omoss-content">
+                <img id="omoss-pic" src="haukrund2.png" alt="haukferdig">
+                <div id="omoss-text">
+                  <h2 id="omoss-text-head">Bærum Byggfornyelse AS</h2>
+                  <h3 id="omoss-text-head">- din snekker i Bærum omegn -</h3>
+                  <div id="omoss-text-content">I Bærum Byggfornyelse er vi opptatt av estetikk, kvalitet og<br> 
+                          punktlighet. Vi går ikke for de billige løsningene. For oss er det<br>
+                          viktig med god kommunikasjon og kundebehandling.<br>
+                            Vi ønsker at kunden skal få det lille ekstra og føle<br>
+                            seg trygge på valget av håndverker.<br>
+                            Alle våre håndverkere er norsktalende erfarne og faglærte.<br> 
+                            (Vi er opptatt av rekrutering til faget og har derfor til tider<br>
+                            lærling med i teamet). <br>
+                            Vi forlater ikke en arbeidsplass før kunden er fornøyd.<br>
+                            <br>
+                            - Haukur Oskarsson, Daglig Leder -</div>
+                </div>
+              </div>                    
+          </div>
+
+          <div id="innhold-tjenester">
+            <div id="innhold-tjenester-head">Tjenester</div>
+              <div id="innhold-tjenester-buttons">
+                <div id="tjenester-knapp">🏚 &nbsp;&nbsp;&nbsp;Rehabilitering</div>
+                <div id="tjenester-knapp2">🛠 &nbsp;&nbsp;&nbsp;Tilbygg</div>
+                <div id="tjenester-knapp3">𝌑 &nbsp;&nbsp;&nbsp;Terrasse</div>
+              </div>
+          </div>
+        </div>
+
+          <div id="innhold-kontakt">
+            <div id="innhold-kontakt-head">Kontakt oss</div>
+            <div id="innhold-kontainer">
+              <div id="kontakt-hauk">
+                <div id="kontaktinformasjon"><u>Kontakt</u>informasjon</div>
+                <div id="kontaktinfo-tlf">✆ 40140414</div>
+                <div id="kontaktinfo-mail">✉ Haukur@baerumbygg.no</div>
+                <div id="kontaktinfo-adresse">📌 Bjerkelundsveien 4, 1358 Jar</div>
+                <div class="mapouter">
+                  <div class="gmap_canvas">
+                    <iframe width="300" height="150" id="gmap_canvas" src="https://maps.google.com/maps?q=Bjerkelundsveien%204,%201358%20Jar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.whatismyip-address.com/divi-discount/"></a>
+                  </div>
+                </div>
+              </div>
+
+              <div id="kontaktskjema-h">
+                <div id="kontaktskjema"><u>Kontakt</u>skjema</div>
+                <form action="mailto:emil.sjursen@gmail.com" method="post" enctype="text/plain">
+                  <input id="ks" type="text" name="name" placeholder="Navn"><br>
+                  <input id="ks" type="text" name="mail" placeholder="E-mail"><br>
+                  <input id="ks" type="text" name="number" placeholder="Telefon"><br>
+
+                  <br>
+                  <textarea id="mailtext" type="text" name="comment" placeholder="Din melding"></textarea></textarea><br><br>
+                  <input type="submit" value="Send">
+                  <input type="reset" value="Reset">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="footer">
+            <div>
+              <img id="mesterlogo" src="Mesterlogo.png" alt="Mesterlogo">
+            </div>
+            <div id="footerlogo-display">
+              <img onclick="home()" id="footer-logo" src="baerum_byggfornyelse_sorthv.jpg" alt="Logo">
+            </div>
+            <div>Lenker</div>
+          </div>
+        </div>
+          
+
+
+
+    <script src="Bærumjava.js"></script>
+  </body>
+</html>
+
+
+
