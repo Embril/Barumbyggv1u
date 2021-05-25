@@ -23,7 +23,7 @@
 @media only screen and (max-width: 2560px) {
   #page {
     display: grid;
-    grid-template-rows: 0.5fr 3fr 8fr 5fr;
+    grid-template-rows: 0.2fr 3fr 8fr 5fr;
     height: 210vh;
     background-image: url("backk.jpeg");
     background-repeat: no-repeat;
