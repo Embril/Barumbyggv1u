@@ -138,6 +138,15 @@
   grid-gap: 50px;
 }
 
+@media only screen and (max-width: 2560px) {
+  #innhold-grid {
+  margin: 200px;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  grid-gap: 100px;
+  }
+}
+
 #innhold-grid div {
   opacity: 0.9;
 }
