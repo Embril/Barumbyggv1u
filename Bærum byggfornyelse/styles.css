@@ -20,6 +20,18 @@
   }
 }
 
+@media only screen and (max-width: 2318px) {
+  #page {
+    display: grid;
+    grid-template-rows: 0.5fr 3fr 8fr 5fr;
+    height: 200vh;
+    background-image: url("backk.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
 #top-navbar {
   background-color: black;
   float: right;
