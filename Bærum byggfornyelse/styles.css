@@ -158,6 +158,15 @@
   }
 }
 
+@media only screen and (max-width: 2560px) {
+  #innhold-om-oss {
+    background-color: rgb(228, 228, 228);
+    height: 400px;
+    width: 750px;
+    box-shadow: 5px 10px rgb(71, 68, 68);
+  }
+}
+
 @media only screen and (max-width: 600px) {
   #innhold-om-oss {
     display: block;
