@@ -170,7 +170,7 @@
 @media only screen and (max-width: 2560px) {
   #innhold-om-oss {
     background-color: rgb(228, 228, 228);
-    height: 400px;
+    height: 500px;
     width: 850px;
     box-shadow: 5px 10px rgb(71, 68, 68);
   }
@@ -293,7 +293,7 @@
 @media only screen and (max-width: 2560px) {
   #innhold-tjenester {
     background-color: rgb(228, 228, 228);
-    height: 400px;
+    height: 500px;
     width: 850px;
     box-shadow: 5px 10px rgb(71, 68, 68);
   }
