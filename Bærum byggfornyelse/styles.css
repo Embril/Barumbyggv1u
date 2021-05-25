@@ -24,7 +24,7 @@
   #page {
     display: grid;
     grid-template-rows: 0.5fr 3fr 8fr 5fr;
-    height: 200vh;
+    height: 210vh;
     background-image: url("backk.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
