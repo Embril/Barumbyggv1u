@@ -248,6 +248,16 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 2560px) {
+  #innhold-tjenester-buttons {
+    margin: 50px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-gap: 50px;
+    text-align: center;
+  }
+}
+
 #innhold-tjenester-buttons div {
   border: solid black 2px;
   width: 620px;
@@ -277,7 +287,7 @@
     background-color: #e0dbdb;
     box-shadow: 2px 2px rgb(71, 68, 68);
     font-size: x-large;
-    padding-top: 40px;
+    padding-top: 10px;
   }
 }
 
